@@ -157,7 +157,7 @@ h6 {
 }
 
 #header .logo img {
- padding: 0;
+ padding: 10px;
   margin: 0;
   height: 60px;
   
@@ -376,7 +376,7 @@ h6 {
 --------------------------------*/
 
 .section-header h3 {
-  font-size: 36px;
+  font-size: 45px;
   color: #283d50;
   text-align: center;
   font-weight: 500;
@@ -500,6 +500,13 @@ h6 {
 #about .about-extra h4 {
   font-weight: 600;
   font-size: 24px;
+}
+
+#about .img-us {
+  width: 500px;
+  margin: 80px;
+  border-radius: 50%;
+  border: #d8eafe;
 }
 
 /* Services Section
