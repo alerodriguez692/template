@@ -16,14 +16,14 @@ body {
 }
 
 a {
-  color: #007bff;
+  color: #6E2F93;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #9E69C5;
   outline: none;
   text-decoration: none;
 }
@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
+  background: #6E2F93;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -199,7 +199,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: #34C0DF;
   text-decoration: underline;
 }
 
@@ -218,8 +218,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #34C0DF;
+  border: 2px solid #34C0DF;
   color: #fff;
 }
 
@@ -234,8 +234,8 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: #34C0DF ;
+  border-color: #34C0DF;
   color: #fff;
 }
 
@@ -263,7 +263,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #9E69C5;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -274,7 +274,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #6E2F93; 
   text-decoration: none;
 }
 
@@ -385,7 +385,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #50535c;
   width: 50%;
 }
 
@@ -393,7 +393,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ecf5ff;
+  background: #E9E7E8;
 }
 
 /* About Us Section
@@ -456,17 +456,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #34C0DF;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #34C0DF;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #34C0DF;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -554,7 +554,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #34C0DF;
 }
 
 #services .description {
@@ -842,7 +842,7 @@ h6 {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #007bff;
+  background-color: #34C0DF;
 }
 
 /* Team Section
@@ -850,6 +850,7 @@ h6 {
 
 #team {
   background: #fff;
+  background-size: cover;
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -890,7 +891,7 @@ h6 {
 }
 
 #team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
+  background: #34C0DF;
   opacity: 1;
   transition: 0.4s;
 }
@@ -924,7 +925,7 @@ h6 {
 }
 
 #team .member .social a:hover {
-  color: #007bff;
+  color: #34C0DF;
 }
 
 #team .member .social i {
@@ -998,7 +999,7 @@ h6 {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+  color: #34C0DF;
 }
 
 #contact .contact-about p {
@@ -1016,7 +1017,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #007bff;
+  color: #34C0DF;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1025,11 +1026,11 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #007bff;
+  border: 1px solid #34C0DF;
 }
 
 #contact .social-links a:hover {
-  background: #007bff;
+  background: #34C0DF;
   color: #fff;
 }
 
@@ -1039,7 +1040,7 @@ h6 {
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #34C0DF;
   float: left;
   line-height: 1;
 }
@@ -1051,8 +1052,8 @@ h6 {
 }
 
 #contact .form #sendmessage {
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: #34C0DF;
+  border: 1px solid #34C0DF;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1092,7 +1093,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: #34C0DF;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1101,7 +1102,7 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: #34C0DF;
   cursor: pointer;
 }
 
@@ -1110,14 +1111,15 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #34C0DF;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #9E69C5;
+    background-size: cover;
   padding: 60px 0 30px 0;
 }
 
@@ -1139,16 +1141,17 @@ h6 {
 
 #footer .footer-top .footer-info p {
   font-size: 13px;
+  font-weight: bold;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #ecf5ff;
+  color: #111;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #34C0DF;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1161,14 +1164,14 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
-  color: #fff;
+  background: #34C0DF;
+  color: #9E69C5;
 }
 
 #footer .footer-top h4 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
-  color: #fff;
+  color: #111;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1193,7 +1196,8 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+  color: #34C0DF;
+  font-weight: bold;
 }
 
 #footer .footer-top .footer-links ul a:hover {
