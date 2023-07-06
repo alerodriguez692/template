@@ -121,3 +121,12 @@
 
 })(jQuery);
 
+
+
+var botonEnviar = document.getElementById("sendmessagee");
+
+
+botonEnviar.addEventListener("click", function() {
+  
+  alert("Tu mensaje fue enviado, pronto nos pondremos en contacto!");
+});
